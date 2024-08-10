@@ -1,4 +1,4 @@
-package me.sebastian420.mixin;
+package me.sebastian420.PandaLeadBreak.mixin;
 
 import net.minecraft.entity.Leashable;
 import org.spongepowered.asm.mixin.Mixin;

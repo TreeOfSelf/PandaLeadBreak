@@ -5,7 +5,7 @@
 	"name": "panda-lead-break",
 	"description": "Panda Lead Break",
 	"authors": [
-		"Sebastian420"
+		"TreeOfSelf"
 	],
 	"contact": {
 		"homepage": "",
@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"me.sebastian420.Pandaleadbreak"
+			"me.sebastian420.PandaLeadBreak.PandaLeadBreak"
 		]
 	},
 	"mixins": [

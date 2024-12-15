@@ -1,4 +1,4 @@
-package me.sebastian420.PandaLeadBreak.mixin;
+package me.TreeOfSelf.PandaLeadBreak.mixin;
 
 import net.minecraft.entity.Leashable;
 import org.spongepowered.asm.mixin.Mixin;
@@ -14,6 +14,6 @@ public interface LeashableMixin {
             constant = @Constant(doubleValue = 10.0)
     )
     private static double modifyLeashDistance(double original) {
-        return 100.0;
+        return 50.0;
     }
 }

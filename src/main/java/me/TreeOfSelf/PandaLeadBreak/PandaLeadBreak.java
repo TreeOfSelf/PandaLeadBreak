@@ -1,4 +1,4 @@
-package me.sebastian420.PandaLeadBreak;
+package me.TreeOfSelf.PandaLeadBreak;
 
 import net.fabricmc.api.ModInitializer;
 

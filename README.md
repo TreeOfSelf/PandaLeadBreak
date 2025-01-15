@@ -2,7 +2,7 @@
 
 ## Description
 
-A simple drop-in mod to make leads strong enough to pull boats while flying around on the elytra.
+A simple drop-in mod to make leads strong enough to pull entities while flying around on the elytra.
 
 ## Support
 

@@ -10,8 +10,8 @@ import org.spongepowered.asm.mixin.injection.ModifyConstant;
 public interface LeashableMixin {
 
     @ModifyConstant(
-            method = "tickLeash",
-            constant = @Constant(doubleValue = 10.0)
+            method = "getLeashSnappingDistance",
+            constant = @Constant(doubleValue = 12.0)
     )
     private static double modifyLeashDistance(double original) {
         return 50.0;

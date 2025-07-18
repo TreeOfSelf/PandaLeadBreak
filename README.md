@@ -1,3 +1,5 @@
+<img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/25acb667-97ee-4d27-a74b-1290ca136b31" />
+
 # PandaLeadBreak
 
 ## Description

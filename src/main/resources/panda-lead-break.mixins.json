@@ -3,6 +3,7 @@
   "package": "me.TreeOfSelf.PandaLeadBreak.mixin",
   "compatibilityLevel": "JAVA_25",
   "mixins": [
+    "EntityMixin",
     "FireworkRocketItemMixin",
     "LeashableMixin"
   ],

@@ -4,7 +4,20 @@
 
 ## Description
 
-A simple drop-in mod to make leads strong enough to pull entities while flying around on the elytra.
+A simple drop-in mod for stronger leads and leading more mobs.
+
+## Permissions
+
+All granted by default; restrict them with any permission provider (fabric-permissions-api).
+
+| Permission | Effect |
+|---|---|
+| `pandaleadbreak.strong` | Leads reach 25 blocks (vanilla 12) and don't snap when using rockets on an elytra |
+| `pandaleadbreak.villagers` | Lead villagers and wandering traders |
+| `pandaleadbreak.animals` | Lead other mobs vanilla won't leash (fish, bats, pandas, ...) |
+| `pandaleadbreak.hostile` | Lead hostile mobs |
+
+Withers, the ender dragon, wardens and mobs wider than 1.5 blocks (ravagers, elder guardians, ghasts, big slimes) can't be leashed.
 
 ## Try it out
 `hardcoreanarchy.gay`   (Deathban Anarchy)  

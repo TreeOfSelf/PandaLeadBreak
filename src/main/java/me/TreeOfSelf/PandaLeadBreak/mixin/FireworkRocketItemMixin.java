@@ -1,5 +1,6 @@
 package me.TreeOfSelf.PandaLeadBreak.mixin;
 
+import me.TreeOfSelf.PandaLeadBreak.LeashRules;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.FireworkRocketItem;
 import org.jspecify.annotations.Nullable;
@@ -18,6 +19,7 @@ public class FireworkRocketItemMixin {
 		)
 	)
 	private boolean preventLeadBreaking(Player instance, @Nullable Player player) {
-		return false;
+		if (LeashRules.has(instance, LeashRules.STRONG)) return false;
+		return instance.dropAllLeashConnections(player);
 	}
 }

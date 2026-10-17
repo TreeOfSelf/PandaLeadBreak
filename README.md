@@ -15,9 +15,8 @@ All granted by default; restrict them with any permission provider (fabric-permi
 | `pandaleadbreak.strong` | Leads reach 25 blocks (vanilla 12) and don't snap when using rockets on an elytra |
 | `pandaleadbreak.villagers` | Lead villagers and wandering traders |
 | `pandaleadbreak.animals` | Lead other mobs vanilla won't leash (fish, bats, pandas, ...) |
-| `pandaleadbreak.hostile` | Lead hostile mobs |
 
-Withers, the ender dragon, wardens and mobs wider than 1.5 blocks (ravagers, elder guardians, ghasts, big slimes) can't be leashed.
+Hostile mobs and mobs wider than 1.5 blocks (ravagers, elder guardians, ghasts, big slimes) can't be leashed, unless vanilla allows it.
 
 ## Try it out
 `hardcoreanarchy.gay`   (Deathban Anarchy)  
